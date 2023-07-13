@@ -47,7 +47,7 @@ font-family: 'Roboto', sans-serif;
   font-family: 'Roboto';
 }
 
-.link {
+.list .link {
   color: var(--color-main-text);
   text-decoration: none;
   font-weight: 500;
@@ -78,34 +78,42 @@ font-family: 'Roboto', sans-serif;
   color: var(--accent-pressed-state);
 }
 
-.btn-list {
+.list {
   list-style: none;
   text-align: center;
 }
 
-.btn-nav {
+.list .btn-nav {
   cursor: pointer;
   background: var(--color-bg-team);
   border: 1px solid #e7e9fc;
   color: var(--accent);
 }
 
-.btn-list .btn-nav:hover,
-.btn-list .btn-nav:focus {
+.list .btn-nav:hover,
+.list .btn-nav:focus {
   color: #ffffff;
   background: var(--accent-pressed-state);
   border: none;
 }
 
-.gallery-list {
+.list {
   list-style: none;
 }
 
-.gallery-list-title {
+.gallery-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-main-text);
+}
+
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-text);
 }
 
 .section-address {
@@ -152,6 +160,14 @@ font-family: 'Roboto', sans-serif;
   border: none;
   color: #ffffff;
   cursor: pointer;
+}
+
+.btn-nav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .hero .btn-banner:hover,
