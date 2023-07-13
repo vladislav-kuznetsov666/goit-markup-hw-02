@@ -8,13 +8,15 @@
   --color-bg-team: #f4f4fd;
 }
 
+
 body {
-  font-family: 'Roboto' sans-serif;
+font-family: 'Roboto' sans-serif;
   color: var(--color-secondary-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  background-color: #ffffff;
 }
 
 
@@ -38,7 +40,7 @@ body {
   color: var(--primary-bg-color);
 }
 
-.header-navigation-links {
+.header-navigation-list {
   list-style: none;
   font-family: 'Roboto';
 }
