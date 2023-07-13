@@ -59,10 +59,11 @@ font-family: 'Roboto', sans-serif;
 .contacts {
   font-family: 'Roboto';
   list-style-type: none;
+  font-style: normal;
 }
 
-.contacts-link .link:hover,
-.contacts-link .link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-pressed-state);
 }
 
@@ -137,11 +138,17 @@ font-family: 'Roboto', sans-serif;
 .section-banner-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.7;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .btn-banner {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   background: var(--accent);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
   border: none;
   color: #ffffff;
   cursor: pointer;
