@@ -8,6 +8,9 @@
   --color-bg-team: #f4f4fd;
 }
 
+.link-secondary {
+    color: var(--color-secondary-text);
+  }
 
 body {
 font-family: 'Roboto', sans-serif;
@@ -256,5 +259,5 @@ font-family: 'Roboto', sans-serif;
 
 .address-section {
   font-style: normal;
-  
+
 }
