@@ -58,7 +58,9 @@ font-family: 'Roboto', sans-serif;
   letter-spacing:0.03em;
   font-weight: 800;
   }
-
+  .list .link:hover {
+    color: #404bbf;
+    }
 
 .list .link:focus {
  color: #404bbf;
