@@ -49,14 +49,13 @@ font-family: 'Roboto', sans-serif;
 }
 
 .link {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing:0.03em;
-  color: var(--color-main-text);
   font-weight: 800;
   }
 
