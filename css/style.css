@@ -244,3 +244,9 @@ font-family: 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: var(--color-main-text);
 }
+
+.third-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
