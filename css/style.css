@@ -45,7 +45,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .logo-studio-white {
-  color: var(--primary-bg-color);
+  color: #f4f4fd;
   font-family: "Raleway" sans-serif;
 }
 
@@ -141,6 +141,12 @@ font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 1.2;
   text-transform: uppercase;
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: var(--color-bg-team);
+  letter-spacing: 0.02em;
 }
 
 .hero {
