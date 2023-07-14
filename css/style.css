@@ -236,3 +236,11 @@ font-family: 'Roboto', sans-serif;
   list-style: none;
   background-color: #f4f4fd;
 }
+
+.strategy-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+  color: var(--color-main-text);
+}
