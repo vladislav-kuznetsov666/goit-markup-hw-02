@@ -208,10 +208,6 @@ font-family: 'Roboto', sans-serif;
   background-color: var(--accent-pressed-state);
 }
 
-.features-list {
-  list-style: none;
-  text-align: left;
-}
 
 .h3-title {
   font-weight: 500;
