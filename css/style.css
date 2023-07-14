@@ -59,11 +59,15 @@ font-family: 'Roboto', sans-serif;
   font-weight: 800;
   }
 
- .link:hover,
- .link:focus {
+ .link:hover {
  color: #404bbf;
  }
   
+ 
+ .link:focus {
+ color: #404bbf;
+ }
+
 .list {
   list-style: none;
   font-family: 'Roboto', sans-serif;
