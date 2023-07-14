@@ -253,3 +253,8 @@ font-family: 'Roboto', sans-serif;
   color: var(--color-main-text);
   letter-spacing: 0.02em;
 }
+
+.address-section {
+  font-style: normal;
+  
+}
