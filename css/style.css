@@ -19,7 +19,6 @@ font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
 }
 
-
 .logo-web {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
@@ -49,9 +48,13 @@ font-family: 'Roboto', sans-serif;
   font-family: "Raleway" sans-serif;
 }
 
+.link {
+  text-decoration: none;
+  }
+
 .list {
   list-style: none;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 .list-item{
