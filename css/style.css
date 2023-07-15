@@ -92,6 +92,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .list .link {
+  font-family:'Roboto', sans-serif;
   color: var(--color-main-text);
   text-decoration: none;
   font-weight: 500;
@@ -187,7 +188,7 @@ font-family: 'Roboto', sans-serif;
   color: #ffffff;
   background-color: var(--secondary-bg-color);
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 .section-banner-title {
@@ -271,4 +272,9 @@ font-family: 'Roboto', sans-serif;
 .address-section {
   font-style: normal;
 
+}
+
+.address-section .list .link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
